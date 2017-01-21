@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;2DAE2D;AAE3D,2DAA2D;AAI3D,2DAA2D;AAK3D,0DAA0D;AAG1D,0DAA0D;AAK1D,0DAA0D;AAS1D;;;;EAIE;AChCF,2BAA2B",
+"sources": ["../../../../assets/sass/utils/_variables.scss","../../../../assets/sass/layout/_footer.scss"],
+"names": [],
+"file": "_footer.css"
+}

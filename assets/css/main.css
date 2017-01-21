@@ -1,0 +1,660 @@
+/* ========================================================
+                      LAYOUT
+======================================================== */
+@import url(base/normalize.css);
+.header {
+  width: 100%;
+  height: 1080px;
+  background-color: #002244;
+  position: relative; }
+
+.header_element {
+  width: 512px;
+  height: 695px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  text-align: center;
+  z-index: 3; }
+
+.header_text {
+  padding-top: 95px;
+  box-sizing: border-box; }
+
+.header_text p {
+  font-size: 16px;
+  text-align: left;
+  font-family: 'DINpro';
+  font-weight: 300;
+  padding: 30px 115px 0;
+  margin: 0; }
+
+.header_text h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: 'DINpro';
+  margin: 0;
+  padding: 20px 105px 65px; }
+
+.button {
+  padding: 12px 45px;
+  border: 5px double #8898a8;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: 'DINpro';
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 72px; }
+
+.menu-1 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #002244;
+  display: flex;
+  justify-content: center; }
+
+.eng {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #002244;
+  display: flex;
+  justify-content: center; }
+
+.eng a {
+  margin-top: 15px;
+  color: #fff;
+  font-family: 'DINpro';
+  font-size: 19px;
+  font-weight: 300;
+  text-decoration: none; }
+
+.menu-1 img {
+  margin-top: 17px;
+  width: 40px;
+  height: 25px;
+  align-self: center; }
+
+.phone {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  width: 204px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center; }
+
+.phone span {
+  color: #fff;
+  font-family: 'DINpro';
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 15px; }
+
+.reserved {
+  position: absolute;
+  top: 0;
+  right: 60px;
+  width: 210px;
+  height: 60px;
+  display: inline-block;
+  background-color: #cba673;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center; }
+
+.reserved a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'DINpro';
+  font-weight: 300; }
+
+.reserved img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  padding-right: 5px;
+  margin-top: -5px; }
+
+.pin {
+  width: 90px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  bottom: 105px;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.pin img {
+  width: 35px;
+  height: 40px; }
+
+.pin a {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'DINpro';
+  font-weight: 300;
+  text-decoration: none; }
+
+.carousel-control:hover, .carousel-control:focus {
+  opacity: .5; }
+
+/* ========================================================
+                          Varaiables
+======================================================== */
+/*--------------------- Colors (basic) ------------------*/
+/* ---------------- Colors (special palette) ----------- */
+/*------------------------- Fonts ----------------------*/
+/*----------------------- Font sizes -------------------*/
+/*----------------------- Transitions ------------------*/
+/*
+                    c- = color
+                    f- = font
+                    t- = transition
+*/
+/* ------ FOOTER --------*/
+/* ========================================================
+                      PAGES
+======================================================== */
+/* --- ROOM SECTION -- */
+.room {
+  width: 100%;
+  height: 1080px;
+  background-color: #f7f7f7;
+  position: relative; }
+
+.reserved-2 {
+  position: absolute;
+  top: 0;
+  right: 60px;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-color: #cba673;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center; }
+
+.reserved-2 img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-top: -5px; }
+
+.room_content {
+  width: 33%;
+  height: 720px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  padding-right: 0;
+  padding-left: 0; }
+
+.room_block-1 {
+  align-self: center; }
+
+.room_block-1 h2 {
+  font-family: 'DINpro';
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.room_block-1 p {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 31px 33px 0;
+  text-align: left;
+  margin-bottom: 0; }
+
+.category {
+  width: 67%;
+  height: 720px;
+  margin-top: 200px;
+  padding-left: 0;
+  padding-right: 0; }
+
+.col {
+  width: 33%;
+  height: auto;
+  display: inline-block;
+  position: relative; }
+
+.col img,
+.col-1 img {
+  width: 100%;
+  height: auto; }
+
+.col-1 {
+  width: 66.5%;
+  height: auto;
+  display: inline-block;
+  margin-top: 5px; }
+
+.elem1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: #fff solid 1px;
+  opacity: 0;
+  transition: .5s; }
+
+.category-caption img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 280px; }
+
+.category-caption h3 {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: 'DINpro';
+  position: absolute;
+  top: 35px;
+  left: 107px; }
+
+.category-caption p {
+  position: absolute;
+  top: 280px;
+  color: #fff; }
+
+.elem1:hover {
+  opacity: 1; }
+
+/* --  ADVANTAGES SECTION -- */
+.advantages {
+  width: 100%;
+  height: 1000px;
+  padding: 0; }
+
+.row-1 {
+  margin: 0; }
+
+.advantages_block {
+  padding: 0; }
+
+.discount {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center; }
+
+.discount_elem {
+  width: 88%;
+  height: 80%;
+  align-self: center;
+  border: 1px solid #000;
+  position: relative; }
+
+.discount_elem img {
+  position: absolute;
+  top: -37px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fff;
+  width: 170px;
+  height: 80px; }
+
+.discount_elem h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-family: 'DINpro';
+  text-transform: uppercase; }
+
+.discount_elem p {
+  padding: 0 120px;
+  font-size: 16px;
+  font-weight: 300; }
+
+.photo {
+  width: 100%;
+  height: 450px;
+  background-color: yellow; }
+
+.photo img {
+  width: 100%;
+  height: 100%; }
+
+.comfort {
+  width: 90%;
+  height: 985px;
+  background-color: #002244; }
+
+.comfort_elem {
+  text-align: center;
+  padding-top: 43px; }
+
+.comfort_elem h3 {
+  font-size: 36px;
+  color: #fff;
+  font-family: 'DINpro';
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 300; }
+
+.comform_list a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 20px; }
+
+.comform_list ul {
+  padding-top: 45px;
+  padding-left: 100px;
+  line-height: 50px; }
+
+/* ----   FEEDBACKS SECTION ---- */
+.feedbacks {
+  width: 100%;
+  height: 605px;
+  background-color: #fff; }
+
+.feedbacks-caption {
+  margin-top: 100px; }
+
+.feedbacks-caption h3 {
+  text-transform: uppercase;
+  font-family: 'DINpro';
+  font-size: 36px;
+  font-weight: 300; }
+
+.feedback {
+  height: 160px;
+  margin-left: 60px;
+  margin-top: 70px;
+  text-align: center; }
+
+.feedback img {
+  width: 160px;
+  height: 160px; }
+
+.feedback p {
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+  font-size: 16px;
+  padding-left: 40px;
+  text-align: left; }
+
+.feedback-2 {
+  height: 160px;
+  margin-left: 60px;
+  margin-top: 70px;
+  text-align: center; }
+
+.feedback-2 img {
+  width: 160px;
+  height: 160px; }
+
+.feedback-2 p {
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+  font-size: 16px;
+  padding-left: 40px;
+  text-align: left; }
+
+/*  ------   Carousel --- */
+.dg-container {
+  width: 100%;
+  height: 544px;
+  position: relative; }
+
+.dg-wrapper {
+  width: 838px;
+  height: 444px;
+  margin: 100px auto;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -o-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px; }
+
+.dg-wrapper a {
+  width: 763px;
+  height: 444px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden; }
+
+.dg-wrapper a.dg-transition {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.dg-wrapper a img {
+  display: block;
+  padding: 0px 0px 0px 1px;
+  height: 100%; }
+
+.dg-wrapper a div {
+  font-style: italic;
+  text-align: center;
+  line-height: 50px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  color: #333;
+  font-size: 16px;
+  width: 100%;
+  bottom: -55px;
+  display: none;
+  position: absolute; }
+
+.dg-wrapper a.dg-center div {
+  display: block; }
+
+.dg-container nav {
+  width: 58px;
+  position: absolute;
+  z-index: 1000;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -29px; }
+
+.dg-container nav span {
+  text-indent: -9000px;
+  float: left;
+  cursor: pointer;
+  width: 24px;
+  height: 25px;
+  opacity: 0.8;
+  background: transparent url(../img/arrows.png) no-repeat top left; }
+
+.dg-container nav span:hover {
+  opacity: 0.6; }
+
+.dg-container nav span.dg-next {
+  background-position: top right;
+  margin-left: 10px; }
+
+.carousel-element {
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  background-color: #fff;
+  opacity: 1 !important;
+  left: 190px;
+  top: 50px;
+  z-index: 2;
+  margin: 0 auto;
+  text-align: center; }
+
+.element-text {
+  width: 100%;
+  height: 92%; }
+
+.element-text:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  border: #002244 solid 1px; }
+
+.element-text h3 {
+  font-size: 24px;
+  font-family: 'DINpro';
+  text-transform: uppercase;
+  color: #002244; }
+
+.element-text p {
+  font-size: 15px;
+  text-align: justify;
+  color: #002244;
+  padding: 0 30px; }
+
+/* --  BOOK SECTION -- */
+.book {
+  height: 470px; }
+
+.book-content {
+  margin-top: 130px;
+  margin-bottom: 130px; }
+
+.book-content h3 {
+  font-size: 36px;
+  font-family: 'DINpro';
+  text-transform: uppercase;
+  color: #002244;
+  font-weight: 300; }
+
+.book-content p {
+  font-size: 16px;
+  padding-top: 35px;
+  color: #002244; }
+
+.book-content button {
+  background-color: #002244;
+  color: #fff;
+  border: 5px double #fff;
+  padding: 13px 20px;
+  font-size: 22px;
+  margin-top: 35px;
+  text-transform: uppercase; }
+
+/* -- FOOTER -- */
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #002244;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; }
+
+.logo {
+  margin-bottom: 20px; }
+
+.footer-content {
+  margin-top: 35px;
+  text-align: center; }
+
+.footer-content p {
+  color: #cba673;
+  font-size: 15px;
+  line-height: 15px; }
+
+.footer-content ul {
+  margin-top: 50px;
+  margin-bottom: 60px; }
+
+.footer-content ul li {
+  display: inline-block; }
+
+.footer-content ul li a {
+  color: #cba673;
+  padding: 0 50px 0 10px;
+  text-decoration: none; }
+
+.footer-elem p {
+  display: inline-block;
+  color: #5b5654;
+  padding: 0 25px; }
+
+/* ========================================================
+                      BASE
+======================================================== */
+/* ========================================================
+                      UTILS
+======================================================== */
+/* ========================================================
+                          Varaiables
+======================================================== */
+/*--------------------- Colors (basic) ------------------*/
+/* ---------------- Colors (special palette) ----------- */
+/*------------------------- Fonts ----------------------*/
+/*----------------------- Font sizes -------------------*/
+/*----------------------- Transitions ------------------*/
+/*
+                    c- = color
+                    f- = font
+                    t- = transition
+*/
+/* ========================================================
+                        Mixins
+======================================================== */
+/* ========================================================
+                     Global Settings
+======================================================== */
+/* ========================================================
+                          Varaiables
+======================================================== */
+/*--------------------- Colors (basic) ------------------*/
+/* ---------------- Colors (special palette) ----------- */
+/*------------------------- Fonts ----------------------*/
+/*----------------------- Font sizes -------------------*/
+/*----------------------- Transitions ------------------*/
+/*
+                    c- = color
+                    f- = font
+                    t- = transition
+*/
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  position: relative; }
+
+li {
+  list-style-type: none; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+/* ========================================================
+                        Media
+======================================================== */
+/*--------------- Mobile first method -------------------*/
+/*--------------- Desktop first method ------------------*/
+/* ========================================================
+                      COMPONENTS
+======================================================== */

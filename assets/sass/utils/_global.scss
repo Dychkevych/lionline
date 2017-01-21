@@ -1,0 +1,21 @@
+/* ========================================================
+                     Global Settings
+======================================================== */
+@import "variables";
+body {
+    font-size: $f-normal;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: $c-dark;
+    text-decoration: none;
+}

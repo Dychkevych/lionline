@@ -1,0 +1,9 @@
+/* DIN pro FONTS */
+@font-face {
+	font-family: 'DINpro';
+	src: local('DINpro'),
+		url('../fonts/DINPro-Bold.otf') format('otf'),
+		url('../fonts/DINPro-Light.otf') format('otf'),
+		url('../fonts/dinpro-regular.otf') format('otf');
+	font-weight: 300,400,700;	
+}
